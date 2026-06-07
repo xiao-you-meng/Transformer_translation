@@ -1,0 +1,842 @@
+当前工作目录: C:\Users\xym\Desktop\machine learning\Seq2Seq
+目录下的文件: ['data', 'demo.py', 'log', 'model.py', 'PostTrain', 'trans.py', 'translation.py', '__pycache__']
+GPU avaliable: True
+Device count: 1
+GPU name: NVIDIA GeForce RTX 5060 Laptop GPU
+256
+15000
+4497
+70
+Using device:cuda
+PAD_IDX = 0
+SOS_IDX = 1
+EOS_IDX = 2
+训练开始！
+[31m#=========================================#
+Epoch1:
+Source sentence (English): whereas trade growth during those heady years far exceeded that of world gdp, which averaged <UNK> lately, trade and gdp growth rates have been about the same.
+Target sentence (Chinese): 这几年中，贸易增长远远高于世界GDP（平均增长率为4. 5%），但最近贸易和GDP增长大致相当。
+D:\technique\Anaconda\Anaconda\envs\pytorch_env\lib\site-packages\torch\nn\functional.py:6041: UserWarning: Support for mismatched key_padding_mask and attn_mask is deprecated. Use same type for both instead.
+  warnings.warn(
+Accuracy:0.0008
+non-pad ratio: 0.5330616235733032
+Prediction: 皋孛叉­倔壹活铸泵叉革革西革〕暄剧簸徉庆番革孛赤番亥抬抬纠牾榷番壹矩牾牾活轧庆庆撤徉­赤赤桂欧桂矩革JJ忿k〕牾牾牾牾牾桂桂革革你官活活棱
+Gradient Norm:1.7208
+Epoch1/75|Loss:7.9277
+Current LR: 0.001
+Epoch 1 耗时: 0.47 秒
+#=========================================#
+Epoch2:
+Source sentence (English): intelligence assets have been <UNK> borders have been made more secure and societies more <UNK>
+Target sentence (Chinese): 情报资源已重新配置，国境线已变得更安全，社会已变得更有弹性。
+Accuracy:0.0656
+non-pad ratio: 0.5797101259231567
+Prediction: 的的的的的的的的的。的的的的的的的。的的的的的的的的的的的的
+Gradient Norm:0.9249
+Epoch2/75|Loss:6.9219
+Current LR: 0.001
+Epoch 2 耗时: 0.15 秒
+#=========================================#
+Epoch3:
+Source sentence (English): will it be the us, where ordinary citizens have already suffered for so long, or china, which, despite troubled times, has managed to generate growth in excess of <UNK>
+Target sentence (Chinese): 还是即便在困难时期也得以实现超过6％增长的中国？
+Accuracy:0.0739
+non-pad ratio: 0.5086050629615784
+Prediction: 的的的的的的的的的的的的的的的的的的的的的的的的的的的的的的的的的的的的的的的的的的的的的的的的的的的的的的的的的的的的的的的的的的的的的
+Gradient Norm:0.7192
+Epoch3/75|Loss:6.2766
+Current LR: 0.001
+Epoch 3 耗时: 0.15 秒
+#=========================================#
+Epoch4:
+Source sentence (English): this dynamic reversed around march 2008, when the us rescued its <UNK> investment bank, bear <UNK> from collapse.
+Target sentence (Chinese): 这一动态在2008年3月左右发生了逆转。 当时，美国拯救了其第五大投资银行贝尔斯登，使其免于破产。
+Accuracy:0.0704
+non-pad ratio: 0.5471014380455017
+Prediction: ，的的的的的的
+Gradient Norm:0.7735
+Epoch4/75|Loss:5.9254
+Current LR: 0.001
+Epoch 4 耗时: 0.15 秒
+#=========================================#
+Epoch5:
+Source sentence (English): two steps, above all, are needed to restore confidence in liberty within the democracies affected by the legacy of <UNK>
+Target sentence (Chinese): 最重要的是，需要采取两个步骤来在受到9/11后果影响的��主国家恢复对自由的信心。
+Accuracy:0.0942
+non-pad ratio: 0.5049818754196167
+Prediction: 但，的的的，
+Gradient Norm:0.9592
+Epoch5/75|Loss:5.6419
+Current LR: 0.001
+Epoch 5 耗时: 0.15 秒
+#=========================================#
+Epoch6:
+Source sentence (English): the question is why.
+Target sentence (Chinese): 问题在于为什么。
+Accuracy:0.1168
+non-pad ratio: 0.5778985619544983
+Prediction: 在的的的的的的的
+Gradient Norm:1.6388
+Epoch6/75|Loss:5.3584
+Current LR: 0.001
+Epoch 6 耗时: 0.15 秒
+#=========================================#
+Epoch7:
+Source sentence (English): unfortunately, this turned out to be the wrong thing to do, as the <UNK> interpretation of the great depression was, to put it <UNK> wrong in significant respects and radically incomplete.
+Target sentence (Chinese): 不幸的是，事实证明这是错的，直言不讳地说，货币主义者对大萧条的解释在众多方面都是错误的，并且非常不完整。
+Accuracy:0.1579
+non-pad ratio: 0.5076993107795715
+Prediction: 但是的是，的的的的的一，的，这的，是的的，这的的义的的的的的的的。，，的国的的的，的的，
+Gradient Norm:1.6149
+Epoch7/75|Loss:5.0922
+Current LR: 0.001
+Epoch 7 耗时: 0.15 秒
+#=========================================#
+Epoch8:
+Source sentence (English): but a trade war is not a zero-sum game. the us stands to lose as well.
+Target sentence (Chinese): 但贸易战可不是一场此消彼长的零和游戏，美国也会输。
+Accuracy:0.1970
+non-pad ratio: 0.5126811861991882
+Prediction: 但是易。，能是，个。的，，的，，，的，
+Gradient Norm:1.5485
+Epoch8/75|Loss:4.8370
+Current LR: 0.001
+Epoch 8 耗时: 0.15 秒
+#=========================================#
+Epoch9:
+Source sentence (English): i had been writing for years that unless growing inequality – especially in the us, but also in many countries throughout the world – was addressed, there would be political consequences.
+Target sentence (Chinese): 多年来我一直指出，除非在全球许多国家（尤其是美国）日益严重的不平等问题得到解决，否则必将产生某些政治后果。
+Accuracy:0.2085
+non-pad ratio: 0.5321558117866516
+Prediction: 但国，，们个，国，2，，的球是多国家的年。他一国家，国的。的是是。。题，，。。，在在。须的，的，在治。，。
+Gradient Norm:1.5182
+Epoch9/75|Loss:4.5680
+Current LR: 0.001
+Epoch 9 耗时: 0.15 秒
+#=========================================#
+Epoch10:
+Source sentence (English): of course, there are obvious differences between 1989 and now.
+Target sentence (Chinese): 当然，现在的情况和1989年的情况明显不同了。
+Accuracy:0.2460
+non-pad ratio: 0.5117753744125366
+Prediction: 但时，这在的经，大。9年9年的是况。。在是的。
+Gradient Norm:1.7953
+Epoch10/75|Loss:4.2985
+Current LR: 0.001
+Epoch 10 耗时: 0.15 秒
+#=========================================#
+Epoch11:
+Source sentence (English): new york – every january, i try to craft a forecast for the coming year.
+Target sentence (Chinese): 发自纽约——每年一月，我都会尝试对未来一年作出预测。
+Accuracy:0.2924
+non-pad ratio: 0.520380437374115
+Prediction: 但9由，，——年的个，这们的。年，。来的个的。，测。
+Gradient Norm:1.7267
+Epoch11/75|Loss:4.0371
+Current LR: 0.001
+Epoch 11 耗时: 0.16 秒
+#=========================================#
+Epoch12:
+Source sentence (English): <UNK> – when pope francis addressed the european parliament last november, he compared the european union to a <UNK> – <UNK> and rich with experience, but lacking the vitality and energy of the past.
+Target sentence (Chinese): 斯托克霍姆/马德里—去年11月，教皇方济各在其欧洲议会演讲中将欧盟比作祖母——和蔼而富于经验，但已不再有过去的活力和能量。
+Accuracy:0.3046
+non-pad ratio: 0.6037137508392334
+Prediction: 但2，，，年1年里——年的11，这的年济年的2他洲的有将。，国在盟经不的为。——，。在。。济，但的经是有，去的经0和和会。
+Gradient Norm:2.1006
+Epoch12/75|Loss:3.7776
+Current LR: 0.001
+Epoch 12 耗时: 0.15 秒
+#=========================================#
+Epoch13:
+Source sentence (English): but now that trump is filling his cabinet with oligarchs and former military men, we have reason to doubt that he will keep his promise to govern without the washington <UNK>
+Target sentence (Chinese): 但现在，特朗普正在征召寡头和前军人进入其内阁，我们有理由质疑他是否会履行自己摆脱华盛顿“建制派”进行治理的承诺。
+Accuracy:0.3625
+non-pad ratio: 0.47599637508392334
+Prediction: 但是在，但朗普，在是，的，。，，，。的是他。，这们的以是的疑的们，人的的为由的脱不人年是。，的。的的为理的。是。
+Gradient Norm:1.9853
+Epoch13/75|Loss:3.5268
+Current LR: 0.001
+Epoch 13 耗时: 0.15 秒
+#=========================================#
+Epoch14:
+Source sentence (English): this is not to say that resolving the remaining issues in the ttip negotiations will be simple.
+Target sentence (Chinese): 这并不是说解决TTIP谈判中仍然存在的问题轻而易举。
+Accuracy:0.4046
+non-pad ratio: 0.49139493703842163
+Prediction: 这一不是的的决策IIP的判的国然的在的。题的都在。。
+Gradient Norm:2.2814
+Epoch14/75|Loss:3.2707
+Current LR: 0.001
+Epoch 14 耗时: 0.17 秒
+#=========================================#
+Epoch15:
+Source sentence (English): whereas in the boom years, world trade had spread the <UNK> it was now spreading the malaise.
+Target sentence (Chinese): 在繁荣年份，世界贸易传播着财富，而如今，世界贸易传播着经济萎靡。
+Accuracy:0.4516
+non-pad ratio: 0.5375905632972717
+Prediction: 这，，年，，世界贸易传播着，的，世如今，世界贸易传播着经济
+Gradient Norm:2.1865
+Epoch15/75|Loss:3.0237
+Current LR: 0.001
+Epoch 15 耗时: 0.15 秒
+#=========================================#
+Epoch16:
+Source sentence (English): but the world is <UNK> the asia-pacific region is increasingly influencing global developments, economic and otherwise.
+Target sentence (Chinese): 但世界正在变化：亚太地区正在日益影响全球经济和其他发展趋势。
+Accuracy:0.5330
+non-pad ratio: 0.5353261232376099
+Prediction: 但是界贸在，得和全
+Gradient Norm:1.9651
+Epoch16/75|Loss:2.7650
+Current LR: 0.001
+Epoch 16 耗时: 0.15 秒
+#=========================================#
+Epoch17:
+Source sentence (English): rising interest rates on corporate bonds <UNK> slower growth in the us.
+Target sentence (Chinese): 公司债券利率的提高预示美国增长减速。
+Accuracy:0.5614
+non-pad ratio: 0.563858687877655
+Prediction: 这，，务利在的美高预测美国增长的。。
+Gradient Norm:2.3571
+Epoch17/75|Loss:2.5038
+Current LR: 0.001
+Epoch 17 耗时: 0.15 秒
+#=========================================#
+Epoch18:
+Source sentence (English): a <UNK> strategy for europe
+Target sentence (Chinese): 欧洲的重振战略
+Accuracy:0.6370
+non-pad ratio: 0.457880437374115
+Prediction: 欧洲的重振战略
+Gradient Norm:2.1284
+Epoch18/75|Loss:2.2547
+Current LR: 0.001
+Epoch 18 耗时: 0.15 秒
+#=========================================#
+Epoch19:
+Source sentence (English): it is and would be wrong to make opposition to terrorism the <UNK> of what responsible governments do in the world.
+Target sentence (Chinese): 如果把反对恐怖主义当成负责任的政府在世界上的核心要务，这是错误的。
+Accuracy:0.6825
+non-pad ratio: 0.5348731875419617
+Prediction: 这果那反，恐怖主义在成功责任的政府在世界上的。心要了，这是错误的。
+Gradient Norm:2.4910
+Epoch19/75|Loss:2.0157
+Current LR: 0.001
+Epoch 19 耗时: 0.14 秒
+#=========================================#
+Epoch20:
+Source sentence (English): terrorists and terrorism cannot be eliminated any more than we can rid the world of disease.
+Target sentence (Chinese): 恐怖分子和恐怖主义不可能根除，就像我们不可能从地球上消灭疾病一样。
+Accuracy:0.7130
+non-pad ratio: 0.5113224983215332
+Prediction: 恐怖分子和恐怖主义不可能根，，就是是们不可能从地球上，灭国病一个。
+Gradient Norm:2.5747
+Epoch20/75|Loss:1.7833
+Current LR: 0.001
+Epoch 20 耗时: 0.15 秒
+#=========================================#
+Epoch21:
+Source sentence (English): everyone seems to be a <UNK> even if some are more affected than others.
+Target sentence (Chinese): 每个人似乎都是输家，即使有些国家比其它国家受到的影响更大。
+Accuracy:0.7987
+non-pad ratio: 0.4836956560611725
+Prediction: 而个人似乎都是种家，即使有些国家—其它国家受到的影响更大。
+Gradient Norm:2.2275
+Epoch21/75|Loss:1.5541
+Current LR: 0.001
+Epoch 21 耗时: 0.17 秒
+#=========================================#
+Epoch22:
+Source sentence (English): it is worth noting that the people who went into the streets of cairo and <UNK> calling for change were not <UNK> the slogans of al qaeda or supporting its agenda.
+Target sentence (Chinese): 值得注意的是，人们走上开罗和大马士革街头，呼喊的并不是基地组织的口号，也没有对它的纲领表示支持。
+Accuracy:0.8546
+non-pad ratio: 0.532608687877655
+Prediction: 但得注意的是，人们走上的罗和大马士我街头，也加的口不是基地组织的口号，也没有对它的纲领表并支持。
+Gradient Norm:2.5845
+Epoch22/75|Loss:1.3402
+Current LR: 0.001
+Epoch 22 耗时: 0.15 秒
+#=========================================#
+Epoch23:
+Source sentence (English): and why was the victor somebody who made his living from taking advantage of others, openly admitted not paying his fair share of taxes, and made tax avoidance a point of <UNK>
+Target sentence (Chinese): 为什么一个依靠占他人便宜来谋生，公开承认并未支付合理份额税收，并以避税为荣的人会成为大选最终赢家？
+Accuracy:0.8847
+non-pad ratio: 0.542119562625885
+Prediction: 为什么一个的靠占他人的宜来谋生，并开始认并未来持在理为额税为，并以避在为，的人会成为大选最终的家的
+Gradient Norm:2.6305
+Epoch23/75|Loss:1.1366
+Current LR: 0.001
+Epoch 23 耗时: 0.14 秒
+#=========================================#
+Epoch24:
+Source sentence (English): osama <UNK> was finally found and killed by us special forces in the <UNK> of <UNK>
+Target sentence (Chinese): 奥萨马·本·拉登最终被美国特种部队找到并击毙。
+Accuracy:0.9104
+non-pad ratio: 0.5258152484893799
+Prediction: 特萨马·本·拉登最终被美国特种部队找到并击毙。
+Gradient Norm:2.9137
+Epoch24/75|Loss:0.9620
+Current LR: 0.001
+Epoch 24 耗时: 0.16 秒
+#=========================================#
+Epoch25:
+Source sentence (English): at the start of the crisis, many people <UNK> it to 1982 or 1973, which was <UNK> because both dates refer to classical cyclical <UNK>
+Target sentence (Chinese): 一开始，很多人把这次危机比作1982年或1973年所发生的情况，这样得类比是令人宽心的，因为这两段时期意味着典型的周期性衰退。
+Accuracy:0.9529
+non-pad ratio: 0.5099637508392334
+Prediction: 一开始，很多人把这次危机比作1982年或198年年或发生的情况，因样得类比是，人宽心的，因为这样段时期性味着典型的周期性衰退。
+Gradient Norm:2.4130
+Epoch25/75|Loss:0.7981
+Current LR: 0.001
+Epoch 25 耗时: 0.16 秒
+#=========================================#
+Epoch26:
+Source sentence (English): these problems are now being compounded by the growth slowdown in china, the <UNK> of global trade.
+Target sentence (Chinese): 如今，这些问题因为全球贸易的支柱——中国增长放缓而雪上加霜。 而最坏的时刻还没有到来。
+Accuracy:0.9565
+non-pad ratio: 0.4895833432674408
+Prediction: 如今，这些问题因为全球贸易的支持———国增长放缓而最上加霜。 而最坏的时刻还没有到来。
+Gradient Norm:2.3685
+Epoch26/75|Loss:0.6553
+Current LR: 0.001
+Epoch 26 耗时: 0.15 秒
+#=========================================#
+Epoch27:
+Source sentence (English): as a result, systemic risk <UNK> beyond central bankers’ <UNK> <UNK>
+Target sentence (Chinese): 结果，系统性风险悄然酝酿，并且超过了央行官员最大胆的想象。
+Accuracy:0.9627
+non-pad ratio: 0.5221920609474182
+Prediction: 结果，系统性风险悄然酝酿，并且超过了央行官员最大胆的想象。
+Gradient Norm:1.6624
+Epoch27/75|Loss:0.5332
+Current LR: 0.001
+Epoch 27 耗时: 0.17 秒
+#=========================================#
+Epoch28:
+Source sentence (English): europe is being cautious in the name of avoiding debt and defending the euro, whereas the us has moved on many fronts in order not to waste an ideal opportunity to implement badly needed structural reforms.
+Target sentence (Chinese): 欧洲在避免债务和捍卫欧元的名义下正变得谨慎，而美国已经在许多方面行动起来，以利用这一理想的时机来实行急需的结构性改革。
+Accuracy:0.9748
+non-pad ratio: 0.5212862491607666
+Prediction: 欧洲在避免债务和捍卫欧元的名义下正变得谨慎，而美国已经在许多方面行动起来，而利用这一理想的时机来实行动需的结构性改革。
+Gradient Norm:1.7175
+Epoch28/75|Loss:0.4269
+Current LR: 0.001
+Epoch 28 耗时: 0.16 秒
+#=========================================#
+Epoch29:
+Source sentence (English): for example, at the beginning of 2016, it seemed clear that the deficiencies of global aggregate demand that have been manifest for the last several years were unlikely to change dramatically.
+Target sentence (Chinese): 例如在2016年初，很显然在过去几年中呈现的全球总需求不足将不大可能出现巨大改变。
+Accuracy:0.9756
+non-pad ratio: 0.5009058117866516
+Prediction: 例如在2016年初，很显然在过去几年中呈现的全球总需求不大将不大可能出现巨大可变。
+Gradient Norm:1.6419
+Epoch29/75|Loss:0.3514
+Current LR: 0.001
+Epoch 29 耗时: 0.17 秒
+#=========================================#
+Epoch30:
+Source sentence (English): <UNK> prescription for countering the crisis is simple, smart, and <UNK>
+Target sentence (Chinese): 沃尔夫给抵御这场危机开出的药方简单、明智并且无懈可击。
+Accuracy:0.9851
+non-pad ratio: 0.48641306161880493
+Prediction: 沃尔夫给抵御这场危机开出的药方简单、明智并且无懈可击。
+Gradient Norm:1.7833
+Epoch30/75|Loss:0.2871
+Current LR: 0.001
+Epoch 30 耗时: 0.17 秒
+#=========================================#
+Epoch31:
+Source sentence (English): <UNK> would have meant acceptance of the terrorists as legitimate enemies, in a sense as equals in a bloody contest for which there are accepted rules of engagement.
+Target sentence (Chinese): “战争”将会意味着把恐怖分子接受为合法的敌人，其含义与具有认同的交战规则的一场血腥战争的对等体相同。
+Accuracy:0.9791
+non-pad ratio: 0.5634058117866516
+Prediction: “战争”将会意味着把恐怖分子接受为合法的敌人，其含义与具有认同的交战规则的一场血腥战争的对等体相同。
+Gradient Norm:1.6938
+Epoch31/75|Loss:0.2397
+Current LR: 0.001
+Epoch 31 耗时: 0.17 秒
+#=========================================#
+Epoch32:
+Source sentence (English): but the imf continues to insist – as it has, with almost <UNK> <UNK> for the last seven years – that next year will be better.
+Target sentence (Chinese): 1%。 但IMF仍然坚持——在过去七年中它一贯如此，几乎没有什么预见性可言——明年会更好。
+Accuracy:0.9751
+non-pad ratio: 0.5647644996643066
+Prediction: 1%。 但IMF仍然坚持—在在过去七年中它一贯如此，几乎没有什么预见性可言—明明年会更好。
+Gradient Norm:1.1612
+Epoch32/75|Loss:0.2111
+Current LR: 0.001
+Epoch 32 耗时: 0.16 秒
+#=========================================#
+Epoch33:
+Source sentence (English): indeed, terrorists are advancing in some areas.
+Target sentence (Chinese): 事实上，恐怖分子在某些领域走在了前头。
+Accuracy:0.9840
+non-pad ratio: 0.5362318754196167
+Prediction: 事实上，恐怖分子在某些领域走在了前头。
+Gradient Norm:1.2165
+Epoch33/75|Loss:0.1883
+Current LR: 0.001
+Epoch 33 耗时: 0.16 秒
+#=========================================#
+Epoch34:
+Source sentence (English): in most countries of continental europe, <UNK> has remained an american date.
+Target sentence (Chinese): 在大多数欧洲大陆国家，”9/11“已经成为一个美国人的日子。
+Accuracy:0.9795
+non-pad ratio: 0.5525362491607666
+Prediction: 在大多数欧洲大陆国家，”9/111已经成为一个美国人的日子。
+Gradient Norm:1.3171
+Epoch34/75|Loss:0.1707
+Current LR: 0.001
+Epoch 34 耗时: 0.16 秒
+#=========================================#
+Epoch35:
+Source sentence (English): and, indeed, the financial <UNK> of 2007-2008 have largely <UNK>
+Target sentence (Chinese): 而事实上，2007—2008年的金融动荡已经基本消失。
+Accuracy:0.9784
+non-pad ratio: 0.4832427501678467
+Prediction: 而事实上，2000—2000年的金融动荡已经基本消失。
+Gradient Norm:0.9607
+Epoch35/75|Loss:0.1635
+Current LR: 0.001
+Epoch 35 耗时: 0.15 秒
+#=========================================#
+Epoch36:
+Source sentence (English): during the <UNK> of irish terrorism in the uk, successive british governments went out of their way not to concede to the <UNK> the notion that a war was being <UNK>
+Target sentence (Chinese): 当爱尔兰恐怖主义在英国猖獗之际，各届英国政府都竭力不屈从于爱尔兰共和军的观点，即正在进行一场战争。
+Accuracy:0.9908
+non-pad ratio: 0.49139493703842163
+Prediction: 当爱尔兰恐怖主义在英国猖獗之际，各届英国政府都竭力不屈从于爱尔兰共和军的观点，即正在进行一场战争。
+Gradient Norm:2.1190
+Epoch36/75|Loss:0.1381
+Current LR: 0.001
+Epoch 36 耗时: 0.14 秒
+#=========================================#
+Epoch37:
+Source sentence (English): of course, there are obvious differences between 1989 and now.
+Target sentence (Chinese): 当然，现在的情况和1989年的情况明显不同了。
+Accuracy:0.9794
+non-pad ratio: 0.5049818754196167
+Prediction: 当然，现在的情况和19年9年的情况明显不同了。
+Gradient Norm:0.8487
+Epoch37/75|Loss:0.1124
+Current LR: 0.001
+Epoch 37 耗时: 0.16 秒
+#=========================================#
+Epoch38:
+Source sentence (English): the terrorists with whom we are currently at <UNK> cannot win, because their dark vision will never gain broad popular legitimacy.
+Target sentence (Chinese): 我们目前“交战”的恐怖分子无法获胜，因为他们的黑暗的观点永远不会赢得广泛的公众合法认可。
+Accuracy:0.9883
+non-pad ratio: 0.501358687877655
+Prediction: 我们目前“交战”的恐怖分子无法获胜，因为他们的观暗的观点永远不会赢得广泛的公众合法认可。
+Gradient Norm:0.6339
+Epoch38/75|Loss:0.1081
+Current LR: 0.001
+Epoch 38 耗时: 0.16 秒
+#=========================================#
+Epoch39:
+Source sentence (English): the terrorists with whom we are currently at <UNK> cannot win, because their dark vision will never gain broad popular legitimacy.
+Target sentence (Chinese): 我们目前“交战”的恐怖分子无法获胜，因为他们的黑暗的观点永远不会赢得广泛的公众合法认可。
+Accuracy:0.9833
+non-pad ratio: 0.4886775314807892
+Prediction: 我们目前“交战”的恐怖分子无法获胜，因为他们的黑暗的观点永远不会赢得广泛的公众合法认可。
+Gradient Norm:1.2007
+Epoch39/75|Loss:0.1085
+Current LR: 0.001
+Epoch 39 耗时: 0.16 秒
+#=========================================#
+Epoch40:
+Source sentence (English): but this will not <UNK> the challenge for eu governments in the year ahead.
+Target sentence (Chinese): 但这并不意味着欧盟政府在今后一年所面临的挑战减轻。
+Accuracy:0.9836
+non-pad ratio: 0.5801630616188049
+Prediction: 但这并不意味着欧盟政府在今后一年所面临的挑战减轻。
+Gradient Norm:0.9670
+Epoch40/75|Loss:0.0920
+Current LR: 0.001
+Epoch 40 耗时: 0.15 秒
+#=========================================#
+Epoch41:
+Source sentence (English): it is a hub of high-level thought and <UNK> it is home to some of the world’s most competitive regions and <UNK> and, perhaps most impressive, it has built a community and market <UNK> a <UNK> people.
+Target sentence (Chinese): 是世界最有竞争力地区和产业的所在地； 最重要的是，它还构建了一个由五亿人组成的社会和市场。
+Accuracy:0.9937
+non-pad ratio: 0.5072463750839233
+Prediction: 是世界最有竞争力地区和产业的所在地； 最重要的是，它还构建了一个由五亿人组成的社会和市场。
+Gradient Norm:0.8723
+Epoch41/75|Loss:0.0889
+Current LR: 0.001
+Epoch 41 耗时: 0.16 秒
+#=========================================#
+Epoch42:
+Source sentence (English): <UNK> prescription for countering the crisis is simple, smart, and <UNK>
+Target sentence (Chinese): 沃尔夫给抵御这场危机开出的药方简单、明智并且无懈可击。
+Accuracy:0.9897
+non-pad ratio: 0.5262681245803833
+Prediction: 沃尔夫给抵御这场危机开出的药方简单、明智并且无懈可击。
+Gradient Norm:1.0832
+Epoch42/75|Loss:0.0881
+Current LR: 0.001
+Epoch 42 耗时: 0.16 秒
+#=========================================#
+Epoch43:
+Source sentence (English): will it be the us, where ordinary citizens have already suffered for so long, or china, which, despite troubled times, has managed to generate growth in excess of <UNK>
+Target sentence (Chinese): 还是即便在困难时期也得以实现超过6％增长的中国？
+Accuracy:0.9849
+non-pad ratio: 0.5113224983215332
+Prediction: 还是即便在困难时期也得以实现超过6％增长的中国？
+Gradient Norm:1.1508
+Epoch43/75|Loss:0.0898
+Current LR: 0.001
+Epoch 43 耗时: 0.15 秒
+#=========================================#
+Epoch44:
+Source sentence (English): it’s <UNK> guess who can stand the pain better.
+Target sentence (Chinese): 大家都在猜测谁的承受能力更强：是普通民众在泥潭里长期挣扎的美国？
+Accuracy:0.9905
+non-pad ratio: 0.5226449370384216
+Prediction: 大家都在猜测谁的承受能力更强：是普通民众在泥潭里长期挣扎的美国？
+Gradient Norm:0.6460
+Epoch44/75|Loss:0.0880
+Current LR: 0.001
+Epoch 44 耗时: 0.16 秒
+#=========================================#
+Epoch45:
+Source sentence (English): september 11, 2001, was a terrible tragedy by any measure, but it was not a historical turning point.
+Target sentence (Chinese): 2001年9月11日，以任何标准看都是一个可怕的惨剧，但它并非一个历史转折点。
+Accuracy:0.9872
+non-pad ratio: 0.5647644996643066
+Prediction: 2000年9月1日日，以任何标准看都是一个可怕的惨剧，但它并非一个历史转折点。
+Gradient Norm:0.5964
+Epoch45/75|Loss:0.0773
+Current LR: 0.001
+Epoch 45 耗时: 0.16 秒
+#=========================================#
+Epoch46:
+Source sentence (English): yet, history is <UNK> and the us, despite its greater responsibility for today’s global crisis, may emerge in better shape than most countries from the <UNK>
+Target sentence (Chinese): 而历史是不公平的。 尽管美国要为当今的全球危机负更大的责任，但美国可能会比大多数国家以更良好的势态走出困境。
+Accuracy:0.9922
+non-pad ratio: 0.5244565606117249
+Prediction: 而历史是不公平的。 尽管美国要为当今的全球危机负更大的责任，但美国可能会比大多数国家以更良好的势态走出困境。
+Gradient Norm:1.2679
+Epoch46/75|Loss:0.0717
+Current LR: 0.001
+Epoch 46 耗时: 0.15 秒
+#=========================================#
+Epoch47:
+Source sentence (English): fortunately, many europeans’ views toward the eu actually improved in the aftermath of the brexit referendum.
+Target sentence (Chinese): 幸运的是，许多欧洲人对欧盟的看法事实上在英国退欧公投后有改善的迹象。
+Accuracy:0.9893
+non-pad ratio: 0.5493659377098083
+Prediction: 幸运的是，许多欧洲人对欧盟的看法事实上在英国退欧公投后有改善的迹象。
+Gradient Norm:0.5127
+Epoch47/75|Loss:0.0707
+Current LR: 0.001
+Epoch 47 耗时: 0.16 秒
+#=========================================#
+Epoch48:
+Source sentence (English): they can destroy but not create.
+Target sentence (Chinese): 它们只破坏，不建设。
+Accuracy:0.9855
+non-pad ratio: 0.5303441882133484
+Prediction: 它们只破坏，不建设。
+Gradient Norm:1.1019
+Epoch48/75|Loss:0.0738
+Current LR: 0.001
+Epoch 48 耗时: 0.15 秒
+#=========================================#
+Epoch49:
+Source sentence (English): and, most <UNK> of all, the european union introduced the euro as a common currency.
+Target sentence (Chinese): 此外，最大胆的动作要数欧盟引入欧元作为共同货币。
+Accuracy:0.9804
+non-pad ratio: 0.53125
+Prediction: 此外，最大胆的动作要数欧盟引入欧元作为共同货币。
+Gradient Norm:0.5677
+Epoch49/75|Loss:0.0725
+Current LR: 0.001
+Epoch 49 耗时: 0.15 秒
+#=========================================#
+Epoch50:
+Source sentence (English): these problems are now being compounded by the growth slowdown in china, the <UNK> of global trade.
+Target sentence (Chinese): 如今，这些问题因为全球贸易的支柱——中国增长放缓而雪上加霜。 而最坏的时刻还没有到来。
+Accuracy:0.9853
+non-pad ratio: 0.4633152186870575
+Prediction: 如今，这些问题因为全球贸易的支柱———国增长放缓而雪上加霜。 而最坏的时刻还没有到来。
+Gradient Norm:0.7946
+Epoch50/75|Loss:0.0711
+Current LR: 0.001
+Epoch 50 耗时: 0.14 秒
+#=========================================#
+Epoch51:
+Source sentence (English): and russian president vladimir putin would invariably regard the eu’s failure as a major opportunity to exert more influence over parts of europe.
+Target sentence (Chinese): 而俄罗斯总统普京也必然会将欧洲的失败视为影响欧洲更多地区的良机。
+Accuracy:0.9894
+non-pad ratio: 0.5144927501678467
+Prediction: 而俄罗斯总统普京也必然会将欧洲的失败视为影响欧洲的多地区的良机。
+Gradient Norm:0.5677
+Epoch51/75|Loss:0.0717
+Current LR: 0.001
+Epoch 51 耗时: 0.14 秒
+#=========================================#
+Epoch52:
+Source sentence (English): it is and would be wrong to make opposition to terrorism the <UNK> of what responsible governments do in the world.
+Target sentence (Chinese): 如果把反对恐怖主义当成负责任的政府在世界上的核心要务，这是错误的。
+Accuracy:0.9955
+non-pad ratio: 0.5086050629615784
+Prediction: 如果把反对恐怖主义当成负责任的政府在世界上的核心要务，这是错误的。
+Gradient Norm:1.6305
+Epoch52/75|Loss:0.0678
+Current LR: 0.001
+Epoch 52 耗时: 0.14 秒
+#=========================================#
+Epoch53:
+Source sentence (English): al qaeda lost its base in afghanistan when the taliban government that had provided it sanctuary was ousted from power.
+Target sentence (Chinese): 基地组织丧失了位于阿富汗的巢穴，正式因为向它提供庇护的塔利班政府被推翻。
+Accuracy:0.9905
+non-pad ratio: 0.5240036249160767
+Prediction: 基地组织丧失了位于阿富汗的巢穴，正式因为向它提供庇护的塔利班政府被推翻。
+Gradient Norm:0.7596
+Epoch53/75|Loss:0.0607
+Current LR: 0.001
+Epoch 53 耗时: 0.16 秒
+#=========================================#
+Epoch54:
+Source sentence (English): (if the ttip was opened to other economies – such as turkey, mexico, and canada – the benefits would be even <UNK>
+Target sentence (Chinese): （如果TTIP向其他经济体开放——比如土耳其、墨西哥和加拿大——则收益还将更大。 ）
+Accuracy:0.9870
+non-pad ratio: 0.5901268124580383
+Prediction: （如果TTIP向其他经济体开放———如土耳其、墨西哥和加拿大———收益还将更大。 ）
+Gradient Norm:1.1596
+Epoch54/75|Loss:0.0576
+Current LR: 0.001
+Epoch 54 耗时: 0.19 秒
+#=========================================#
+Epoch55:
+Source sentence (English): that meeting, if it takes place, is likely to be overshadowed by the fallout from the assassination of russia’s ambassador to turkey.
+Target sentence (Chinese): 如果那次会议真的召开，也有可能笼罩在俄罗斯驻土耳其大使被杀的阴影当中。
+Accuracy:0.9898
+non-pad ratio: 0.48641306161880493
+Prediction: 如果那次会议真的召开，也有可能笼罩在俄罗斯驻土耳其大使被杀的阴影当中。
+Gradient Norm:0.3802
+Epoch55/75|Loss:0.0559
+Current LR: 0.001
+Epoch 55 耗时: 0.17 秒
+#=========================================#
+Epoch56:
+Source sentence (English): and what happens <UNK>
+Target sentence (Chinese): 随后又会是何种状况？
+Accuracy:0.9924
+non-pad ratio: 0.5398550629615784
+Prediction: 随后又会是何种状况？
+Gradient Norm:0.6204
+Epoch56/75|Loss:0.0586
+Current LR: 0.001
+Epoch 56 耗时: 0.16 秒
+#=========================================#
+Epoch57:
+Source sentence (English): the only logical explanation for this enduring lack of confidence, as <UNK> university’s robert gordon has <UNK> documented and argued, is slow productivity growth.
+Target sentence (Chinese): 这一信心持续缺失的唯一符合逻辑的解释，正如西北大学的罗伯特·戈登（Robert Gordon）费煞苦心地记录和论证的，是生产率增长缓慢。
+Accuracy:0.9938
+non-pad ratio: 0.5801630616188049
+Prediction: 这一信心持续缺失的唯一符合逻辑的解释，正如西北大学的罗伯特·戈登（Robert Gordon）费煞苦心地记录和论证的，是生产率增长缓慢。
+Gradient Norm:0.6960
+Epoch57/75|Loss:0.0508
+Current LR: 0.001
+Epoch 57 耗时: 0.16 秒
+#=========================================#
+Epoch58:
+Source sentence (English): new groups constantly emerge from the <UNK> of old ones.
+Target sentence (Chinese): 旧的组织刚被摧毁，新的组织就冒出头来。
+Accuracy:0.9876
+non-pad ratio: 0.4746376872062683
+Prediction: 旧的组织刚被摧毁，新的组织就冒出头来。
+Gradient Norm:0.3335
+Epoch58/75|Loss:0.0469
+Current LR: 0.001
+Epoch 58 耗时: 0.16 秒
+#=========================================#
+Epoch59:
+Source sentence (English): the eurozone, having enjoyed a temporary <UNK> from austerity, will be constrained by <UNK> global trade.
+Target sentence (Chinese): 暂时摆脱了紧缩的欧元区将受到全球贸易萎靡的束缚。
+Accuracy:0.9885
+non-pad ratio: 0.5126811861991882
+Prediction: 暂时摆脱了紧缩的欧元区将受到全球贸易萎靡的束缚。
+Gradient Norm:0.2689
+Epoch59/75|Loss:0.0386
+Current LR: 0.001
+Epoch 59 耗时: 0.16 秒
+#=========================================#
+Epoch60:
+Source sentence (English): trump might like to repeal the ordinary laws of economics, as he goes about his version of <UNK> economics. but he <UNK>
+Target sentence (Chinese): 特朗普可能喜欢颠覆常规的经济学法则，因为他乐于奉行自己那一套巫术经济学，但这是行不通的。
+Accuracy:0.9884
+non-pad ratio: 0.50951087474823
+Prediction: 特朗普可能喜欢颠覆常规的经济学法则，因为他乐于奉行自己那一套巫术经济学，但这是行不通的。
+Gradient Norm:0.3952
+Epoch60/75|Loss:0.0419
+Current LR: 0.001
+Epoch 60 耗时: 0.16 秒
+#=========================================#
+Epoch61:
+Source sentence (English): weak governments can be made <UNK> governments that tolerate or support terrorism must be held accountable.
+Target sentence (Chinese): 软弱的政府可以得到加强，纵容乃至支持恐怖主义的政府则必须为此负责。
+Accuracy:0.9974
+non-pad ratio: 0.5249094367027283
+Prediction: 软弱的政府可以得到加强，纵容乃至支持恐怖主义的政府则必须为此负责。
+Gradient Norm:0.2497
+Epoch61/75|Loss:0.0422
+Current LR: 0.001
+Epoch 61 耗时: 0.18 秒
+#=========================================#
+Epoch62:
+Source sentence (English): the tendency is either excessive restraint <UNK> or a diffusion of the effort (the united <UNK>
+Target sentence (Chinese): 目前的趋势是，要么是过度的克制（欧洲），要么是努力的扩展（美国）。
+Accuracy:0.9935
+non-pad ratio: 0.48686593770980835
+Prediction: 目前的趋势是，要么是过度的克制（美洲），要么是努力的扩展（美国）。
+Gradient Norm:0.3412
+Epoch62/75|Loss:0.0399
+Current LR: 0.001
+Epoch 62 耗时: 0.17 秒
+#=========================================#
+Epoch63:
+Source sentence (English): but the world is <UNK> the asia-pacific region is increasingly influencing global developments, economic and otherwise.
+Target sentence (Chinese): 但世界正在变化：亚太地区正在日益影响全球经济和其他发展趋势。
+Accuracy:0.9935
+non-pad ratio: 0.49048912525177
+Prediction: 但世界正在变化：亚太地区正在日益影响全球经济和其他发展趋势。
+Gradient Norm:0.2570
+Epoch63/75|Loss:0.0436
+Current LR: 0.001
+Epoch 63 耗时: 0.19 秒
+#=========================================#
+Epoch64:
+Source sentence (English): this stance, however, has not prevented the spread of something for which a german word is used in other <UNK> <UNK> <UNK> .
+Target sentence (Chinese): 但是，这一立场并没有防止德语中所说的忧虑的扩散。
+Accuracy:0.9949
+non-pad ratio: 0.532608687877655
+Prediction: 但是，这一立场并没有防止德语中所说的忧虑的扩散。
+Gradient Norm:0.4389
+Epoch64/75|Loss:0.0398
+Current LR: 0.001
+Epoch 64 耗时: 0.16 秒
+#=========================================#
+Epoch65:
+Source sentence (English): some of today’s restrictions on <UNK> <UNK> and civil liberties have <UNK> <UNK> restricting their <UNK> all such rules should be <UNK> by parliaments <UNK>
+Target sentence (Chinese): 当今的某些对人身自由以及民权的限制含有限制其时效的废止条款。 所有这些法规都应当定期接受议会的重新审查。
+Accuracy:0.9863
+non-pad ratio: 0.5289855003356934
+Prediction: 当今的某些对人身自由以及民权的限制含有限制其时效的废止条款。 所有这些法规都应当定期接受议会的重新审查。
+Gradient Norm:0.9166
+Epoch65/75|Loss:0.0517
+Current LR: 0.001
+Epoch 65 耗时: 0.17 秒
+#=========================================#
+Epoch66:
+Source sentence (English): the <UNK> goal is to unleash the power of the transatlantic economy, which remains by far the world’s largest and wealthiest market, accounting for three-quarters of global financial activity and more than half of world trade.
+Target sentence (Chinese): TTIP的目标是释放跨大西洋经济的力量——目前大西洋两岸仍是世界最大最富有的市场，占全球金融活动的四分之三和世界贸易量的一大半。
+Accuracy:0.9919
+non-pad ratio: 0.5040761232376099
+Prediction: TTTP的目标是释放跨大西洋经济的力量—目目前大西洋两岸仍是世界最大最大有的市场，占全球金融活动的四分之三和世界贸易量的一大半。
+Gradient Norm:0.7034
+Epoch66/75|Loss:0.0517
+Current LR: 0.001
+Epoch 66 耗时: 0.16 秒
+#=========================================#
+Epoch67:
+Source sentence (English): for starters, world trade is growing at an anemic annual rate of 2%, compared to 8% from 2003 to 2007.
+Target sentence (Chinese): 首先，世界贸易年增长率只有区区2%，而2003—2007年间高达8%。
+Accuracy:0.9896
+non-pad ratio: 0.4791666865348816
+Prediction: 首先，世界贸易年增长率只有区区区%，而2000—2000年间高达8%。
+Gradient Norm:0.4837
+Epoch67/75|Loss:0.0502
+Current LR: 0.001
+Epoch 67 耗时: 0.15 秒
+#=========================================#
+Epoch68:
+Source sentence (English): drones – <UNK> aircraft that are remotely steered – have proven to be effective in killing a significant number of terrorists, including many of the most important leaders.
+Target sentence (Chinese): 军事无人机在击毙恐怖组织头目的行动中作用非凡。
+Accuracy:0.9945
+non-pad ratio: 0.49320653080940247
+Prediction: 军事无人机在击毙恐怖组织头目的行动中作用非凡。
+Gradient Norm:0.7431
+Epoch68/75|Loss:0.0495
+Current LR: 0.001
+Epoch 68 耗时: 0.17 秒
+#=========================================#
+Epoch69:
+Source sentence (English): from an early date, the prison camp at guantánamo bay in cuba became the symbol of something <UNK> <UNK> the arrest without trial of <UNK> <UNK> who are deprived of all human rights.
+Target sentence (Chinese): 很久以来，古巴关塔那摩湾的战俘营成为了闻所未闻的象征，也就是不经审判逮捕被剥夺所有人权的“非法战斗人员”。
+Accuracy:0.9887
+non-pad ratio: 0.5606884360313416
+Prediction: 很久以来，古巴关塔那摩湾的战俘营成为了闻所未闻的象征，也就是不经审判逮捕被剥夺所有人员的“非法战斗人员”。
+Gradient Norm:1.9362
+Epoch69/75|Loss:0.0475
+Current LR: 0.001
+Epoch 69 耗时: 0.16 秒
+#=========================================#
+Epoch70:
+Source sentence (English): but establishing a trade agreement, especially one that entails so many regulatory issues, is always difficult, as it must account for the complexity and <UNK> of modern economies.
+Target sentence (Chinese): 但签订贸易协议，特别是包含如此多监管问题的贸易协议，永远不是件容易事，因为它必须考虑到现代经济的复杂性和易变性。
+Accuracy:0.9939
+non-pad ratio: 0.5176630616188049
+Prediction: 但签订贸易协议，特别是包含如此多监管问题的贸易协议，永远不是件容易事，因为它必须考虑到现代经济的复杂性。易变性。
+Gradient Norm:0.4918
+Epoch70/75|Loss:0.0385
+Current LR: 0.001
+Epoch 70 耗时: 0.16 秒
+#=========================================#
+Epoch71:
+Source sentence (English): and yet, trump’s statements casting doubt on continued us adherence to a “one <UNK> policy vis-à-vis taiwan could severely damage relations between the world’s two largest economies.
+Target sentence (Chinese): 而特朗普质疑美国是否将继续坚持“一个中国”政策的声明极有可能严重损害世界两大经济体之间的关系。
+Accuracy:0.9933
+non-pad ratio: 0.5403079986572266
+Prediction: 而特朗普质疑美国是否将继续坚持“一个中国”政策的声明极有可能严重损害世界两大经济体之间的关系。
+Gradient Norm:0.4390
+Epoch71/75|Loss:0.0416
+Current LR: 0.001
+Epoch 71 耗时: 0.16 秒
+#=========================================#
+Epoch72:
+Source sentence (English): not all are happy about this american <UNK>
+Target sentence (Chinese): 并不是所有人都赞同这一美国式的观点。
+Accuracy:0.9893
+non-pad ratio: 0.46557971835136414
+Prediction: 并不是所有人都赞同这一美国式的观点。
+Gradient Norm:0.5417
+Epoch72/75|Loss:0.0387
+Current LR: 0.001
+Epoch 72 耗时: 0.16 秒
+#=========================================#
+Epoch73:
+Source sentence (English): before the crisis – and especially from 2003 to 2007 – slow productivity growth was being <UNK> by an <UNK> sense of prosperity in much of the world.
+Target sentence (Chinese): 危机前，特别是2003—2007年，生产率增长缓慢被一种世界大部分国家都在欣欣向荣的幻觉所蒙蔽。
+Accuracy:0.9865
+non-pad ratio: 0.5022644996643066
+Prediction: 危机前，特别是2033——077年，生产率增长缓慢被一种世界大部分国家都在欣欣欣荣的幻觉所蒙蔽。
+Gradient Norm:1.1144
+Epoch73/75|Loss:0.0434
+Current LR: 0.001
+Epoch 73 耗时: 0.15 秒
+#=========================================#
+Epoch74:
+Source sentence (English): blair was the first to argue that security is the first freedom.
+Target sentence (Chinese): 布莱尔第一个主张安全是第一自由。
+Accuracy:0.9908
+non-pad ratio: 0.5439311861991882
+Prediction: 布莱尔第一个主张安全是第一自由。
+Gradient Norm:0.5193
+Epoch74/75|Loss:0.0429
+Current LR: 0.001
+Epoch 74 耗时: 0.17 秒
+#=========================================#
+Epoch75:
+Source sentence (English): any train accident or airplane crash is now at first suspected of being an act of terrorism.
+Target sentence (Chinese): 任何一个火车事故或者飞机坠毁现在都首先被怀疑是恐怖主义行为。
+Accuracy:0.9942
+non-pad ratio: 0.5471014380455017
+Prediction: 任何一个火车事故或者飞机坠毁现在都首先被怀疑是恐怖主义行为。
+Gradient Norm:0.5739
+Epoch75/75|Loss:0.0487
+Current LR: 0.001
+Epoch 75 耗时: 0.16 秒
+训练完成！
